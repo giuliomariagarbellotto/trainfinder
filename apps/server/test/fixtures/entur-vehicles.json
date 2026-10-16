@@ -1,0 +1,83 @@
+[
+ {
+  "vehicleId": "325-2026-10-16",
+  "lastUpdatedEpochSecond": 1792157952.0,
+  "expirationEpochSecond": 1792158552.0,
+  "location": {
+   "latitude": 59.740073,
+   "longitude": 10.204873
+  },
+  "speed": null,
+  "bearing": 122.49091110481999,
+  "delay": 0.0,
+  "line": {
+   "publicCode": "RE10",
+   "lineName": "Drammen-Oslo S-Lillehammer"
+  },
+  "codespace": {
+   "codespaceId": "VYG"
+  },
+  "operator": {
+   "operatorRef": ""
+  },
+  "originName": null,
+  "destinationName": "Lillehammer",
+  "serviceJourney": {
+   "id": "VYG:ServiceJourney:325-SUD_444215-R"
+  }
+ },
+ {
+  "vehicleId": "390-2026-10-16",
+  "lastUpdatedEpochSecond": 1792157950.0,
+  "expirationEpochSecond": 1792158550.0,
+  "location": {
+   "latitude": 58.911997,
+   "longitude": 11.925623
+  },
+  "speed": null,
+  "bearing": 243.00063504353216,
+  "delay": 540.0,
+  "line": {
+   "publicCode": "RE20",
+   "lineName": "Oslo S-Halden-G\u00f6teborg (X-Border)"
+  },
+  "codespace": {
+   "codespaceId": "VYG"
+  },
+  "operator": {
+   "operatorRef": ""
+  },
+  "originName": null,
+  "destinationName": "Oslo S",
+  "serviceJourney": {
+   "id": "VYG:ServiceJourney:390-126_799537-R"
+  }
+ },
+ {
+  "vehicleId": "71-06",
+  "lastUpdatedEpochSecond": 1792157978.0,
+  "expirationEpochSecond": 1792159178.0,
+  "location": {
+   "latitude": 59.910235,
+   "longitude": 10.754573333333333
+  },
+  "speed": null,
+  "bearing": 296.57672119140625,
+  "delay": 0.0,
+  "line": {
+   "publicCode": "FLY2",
+   "lineName": "FLY2"
+  },
+  "codespace": {
+   "codespaceId": "FLT"
+  },
+  "operator": {
+   "operatorRef": "FLT:Operator:507"
+  },
+  "originName": null,
+  "destinationName": "Oslo S",
+  "serviceJourney": {
+   "id": "FLT:ServiceJourney:1-2614-3938-20261016"
+  }
+ }
+]

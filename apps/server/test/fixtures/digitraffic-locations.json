@@ -1,0 +1,47 @@
+[
+ {
+  "accuracy": 0,
+  "isGpsLocation": true,
+  "location": {
+   "type": "Point",
+   "coordinates": [
+    29.528598,
+    61.594908
+   ]
+  },
+  "speed": 139,
+  "trainNumber": 5,
+  "departureDate": "2026-10-16",
+  "timestamp": "2026-10-16T13:39:36.000Z"
+ },
+ {
+  "accuracy": 0,
+  "isGpsLocation": true,
+  "location": {
+   "type": "Point",
+   "coordinates": [
+    26.692446,
+    60.864607
+   ]
+  },
+  "speed": 59,
+  "trainNumber": 7,
+  "departureDate": "2026-10-16",
+  "timestamp": "2026-10-16T13:38:50.000Z"
+ },
+ {
+  "accuracy": 0,
+  "isGpsLocation": true,
+  "location": {
+   "type": "Point",
+   "coordinates": [
+    25.044037,
+    60.292143
+   ]
+  },
+  "speed": 0,
+  "trainNumber": 8,
+  "departureDate": "2026-10-16",
+  "timestamp": "2026-10-16T13:39:38.000Z"
+ }
+]

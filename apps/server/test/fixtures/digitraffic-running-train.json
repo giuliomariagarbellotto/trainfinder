@@ -1,0 +1,1693 @@
+{
+ "trainNumber": 5,
+ "departureDate": "2026-10-16",
+ "commuterLineid": "",
+ "trainType": {
+  "name": "IC"
+ },
+ "operator": {
+  "shortCode": "vr"
+ },
+ "timeTableRows": [
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:14:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:14:58.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "HKI",
+    "name": "Helsinki asema"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:19:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:20:11.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "PSL",
+    "name": "Pasila asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:20:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:22:11.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "PSL",
+    "name": "Pasila asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:20:53.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:23:26.000Z",
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "LOP",
+    "name": "Helsinki Louhenpuisto"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:20:53.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:23:26.000Z",
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "LOP",
+    "name": "Helsinki Louhenpuisto"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:22:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:24:32.000Z",
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "K\u00c4P",
+    "name": "K\u00e4pyl\u00e4"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:22:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:24:32.000Z",
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "K\u00c4P",
+    "name": "K\u00e4pyl\u00e4"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:23:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:25:24.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "OLK",
+    "name": "Oulunkyl\u00e4"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:23:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:25:24.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "OLK",
+    "name": "Oulunkyl\u00e4"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:23:16.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:25:31.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "VRJ",
+    "name": "Helsinki Ver\u00e4j\u00e4laakso"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:23:16.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:25:31.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "VRJ",
+    "name": "Helsinki Ver\u00e4j\u00e4laakso"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:24:09.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:26:19.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PMK",
+    "name": "Pukinm\u00e4ki"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:24:09.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:26:19.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PMK",
+    "name": "Pukinm\u00e4ki"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:25:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:27:06.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "ML",
+    "name": "Malmi"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:25:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:27:06.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "ML",
+    "name": "Malmi"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:26:22.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:27:39.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TNA",
+    "name": "Tapanila"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:26:22.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:27:39.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TNA",
+    "name": "Tapanila"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:27:31.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:28:35.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PLA",
+    "name": "Puistola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:27:31.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:28:35.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PLA",
+    "name": "Puistola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:29:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:30:25.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "TKL",
+    "name": "Tikkurila asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:31:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:33:00.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "TKL",
+    "name": "Tikkurila asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:32:20.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:34:23.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HKH",
+    "name": "Hiekkaharju"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:32:20.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:34:23.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HKH",
+    "name": "Hiekkaharju"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:33:00.000Z",
+   "liveEstimateTime": "2026-10-16T10:34:29.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HVK",
+    "name": "Havukoski"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:33:00.000Z",
+   "liveEstimateTime": "2026-10-16T10:34:29.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HVK",
+    "name": "Havukoski"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:33:56.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:35:53.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KVY",
+    "name": "Koivukyl\u00e4"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:33:56.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:35:53.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KVY",
+    "name": "Koivukyl\u00e4"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:34:34.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:38:40.000Z",
+   "differenceInMinutes": 4,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RKL",
+    "name": "Rekola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:34:34.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:36:35.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RKL",
+    "name": "Rekola"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:35:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:39:37.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HNA",
+    "name": "Hanala"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:35:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:39:37.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HNA",
+    "name": "Hanala"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:35:37.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:40:58.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KRS",
+    "name": "Korso"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:35:37.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:40:58.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KRS",
+    "name": "Korso"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:37:17.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:42:37.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SAV",
+    "name": "Savio"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:37:17.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:42:37.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SAV",
+    "name": "Savio"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:38:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:45:10.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KE",
+    "name": "Kerava asema"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:38:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:45:10.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KE",
+    "name": "Kerava asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:40:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:48:47.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KYT",
+    "name": "Kyt\u00f6maa"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:40:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:48:47.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KYT",
+    "name": "Kyt\u00f6maa"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:43:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:52:46.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HAA",
+    "name": "Haarajoki"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:43:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:52:46.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HAA",
+    "name": "Haarajoki"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:47:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:56:23.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KSU",
+    "name": "Korvensuo"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:47:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:56:23.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KSU",
+    "name": "Korvensuo"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:50:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:59:07.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "ML\u00c4",
+    "name": "M\u00e4nts\u00e4l\u00e4"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:50:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T10:59:07.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "ML\u00c4",
+    "name": "M\u00e4nts\u00e4l\u00e4"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:53:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:01:58.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SIP",
+    "name": "Sipil\u00e4"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:53:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:01:58.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SIP",
+    "name": "Sipil\u00e4"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T10:56:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:05:20.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HNN",
+    "name": "Henna"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T10:56:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:05:20.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HNN",
+    "name": "Henna"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:01:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:09:58.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HLT",
+    "name": "Hakosilta"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:01:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:09:58.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HLT",
+    "name": "Hakosilta"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:06:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:15:31.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "LH",
+    "name": "Lahti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:08:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:17:34.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "LH",
+    "name": "Lahti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:13:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:23:03.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "VLH",
+    "name": "Vill\u00e4hde"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:13:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:23:03.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "VLH",
+    "name": "Vill\u00e4hde"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:15:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:25:18.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "NSL",
+    "name": "Nastola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:15:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:25:18.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "NSL",
+    "name": "Nastola"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:17:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:26:38.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "UK\u00c4",
+    "name": "Uusikyl\u00e4"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:17:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:26:38.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "UK\u00c4",
+    "name": "Uusikyl\u00e4"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:21:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:31:20.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "MKA",
+    "name": "Mankala"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:21:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:31:20.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "MKA",
+    "name": "Mankala"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:24:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:35:01.000Z",
+   "differenceInMinutes": 11,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KA",
+    "name": "Kausala"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:24:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:35:01.000Z",
+   "differenceInMinutes": 11,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KA",
+    "name": "Kausala"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:26:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:36:07.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "NM\u00c4",
+    "name": "Niinim\u00e4ki"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:26:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:36:07.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "NM\u00c4",
+    "name": "Niinim\u00e4ki"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:29:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:38:56.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SM\u00c4",
+    "name": "Saunam\u00e4ki"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:29:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:38:56.000Z",
+   "differenceInMinutes": 10,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SM\u00c4",
+    "name": "Saunam\u00e4ki"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:32:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:40:48.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KRA",
+    "name": "Koria"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:32:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:40:48.000Z",
+   "differenceInMinutes": 9,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KRA",
+    "name": "Koria"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:37:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:44:26.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "KV",
+    "name": "Kouvola asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:40:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:47:21.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "KV",
+    "name": "Kouvola asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:44:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:51:13.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KUV",
+    "name": "Kullasvaara"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:44:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:51:13.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KUV",
+    "name": "Kullasvaara"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:47:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:53:47.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "UTI",
+    "name": "Utti"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:47:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:53:47.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "UTI",
+    "name": "Utti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:48:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:54:31.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KTH",
+    "name": "Kattilaharju"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:48:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:54:31.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KTH",
+    "name": "Kattilaharju"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:51:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:58:05.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KPA",
+    "name": "Kaipiainen"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:51:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T11:58:05.000Z",
+   "differenceInMinutes": 7,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KPA",
+    "name": "Kaipiainen"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T11:56:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:02:16.000Z",
+   "differenceInMinutes": 6,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KJR",
+    "name": "Kaitj\u00e4rvi"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T11:56:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:02:16.000Z",
+   "differenceInMinutes": 6,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KJR",
+    "name": "Kaitj\u00e4rvi"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:00:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:06:04.000Z",
+   "differenceInMinutes": 6,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TA",
+    "name": "Taavetti"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:00:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:06:04.000Z",
+   "differenceInMinutes": 6,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TA",
+    "name": "Taavetti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:05:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:10:48.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "L\u00c4",
+    "name": "Luum\u00e4ki"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:05:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:10:48.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "L\u00c4",
+    "name": "Luum\u00e4ki"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:09:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:14:12.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RAS",
+    "name": "Rasinsuo"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:09:30.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:14:12.000Z",
+   "differenceInMinutes": 5,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RAS",
+    "name": "Rasinsuo"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:13:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:16:41.000Z",
+   "differenceInMinutes": 4,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TR\u00c4",
+    "name": "T\u00f6r\u00f6l\u00e4"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:13:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:16:41.000Z",
+   "differenceInMinutes": 4,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TR\u00c4",
+    "name": "T\u00f6r\u00f6l\u00e4"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:16:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:18:56.000Z",
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TAP",
+    "name": "Tapavainola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:16:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:18:56.000Z",
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TAP",
+    "name": "Tapavainola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:21:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:24:17.000Z",
+   "differenceInMinutes": 3,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "LR",
+    "name": "Lappeenranta"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:23:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:26:47.000Z",
+   "differenceInMinutes": 4,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "LR",
+    "name": "Lappeenranta"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:27:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:30:46.000Z",
+   "differenceInMinutes": 4,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "LRS",
+    "name": "Lauritsala"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:27:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:30:46.000Z",
+   "differenceInMinutes": 4,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "LRS",
+    "name": "Lauritsala"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:32:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:33:44.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "MKO",
+    "name": "Muukko"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:32:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:33:44.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "MKO",
+    "name": "Muukko"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:38:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:38:32.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "JTS",
+    "name": "Joutseno"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:39:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:39:30.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "JTS",
+    "name": "Joutseno"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:47:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:46:27.000Z",
+   "differenceInMinutes": -1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RAH",
+    "name": "Rauha"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:47:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:46:27.000Z",
+   "differenceInMinutes": -1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RAH",
+    "name": "Rauha"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:52:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:51:28.000Z",
+   "differenceInMinutes": -1,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "IMR",
+    "name": "Imatra asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:54:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:55:45.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "IMR",
+    "name": "Imatra asema"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T12:57:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:58:13.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "IMT",
+    "name": "Imatra tavara"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T12:57:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T12:58:13.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "IMT",
+    "name": "Imatra tavara"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:00:32.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:01:55.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "IM",
+    "name": "Immola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:00:32.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:01:55.000Z",
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "IM",
+    "name": "Immola"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:08:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:08:10.000Z",
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RJ\u00c4",
+    "name": "Rautj\u00e4rvi"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:08:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:08:10.000Z",
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "RJ\u00c4",
+    "name": "Rautj\u00e4rvi"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:19:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:19:22.000Z",
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SPL",
+    "name": "Simpele"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:19:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:19:22.000Z",
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SPL",
+    "name": "Simpele"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:29:11.000Z",
+   "liveEstimateTime": "2026-10-16T13:29:11.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KIJ",
+    "name": "Kirjola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:29:11.000Z",
+   "liveEstimateTime": "2026-10-16T13:29:11.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KIJ",
+    "name": "Kirjola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:31:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:33:15.000Z",
+   "differenceInMinutes": 2,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "PAR",
+    "name": "Parikkala"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:33:00.000Z",
+   "liveEstimateTime": null,
+   "actualTime": "2026-10-16T13:37:01.000Z",
+   "differenceInMinutes": 4,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "PAR",
+    "name": "Parikkala"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:43:00.000Z",
+   "liveEstimateTime": "2026-10-16T13:46:55.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 4,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SR",
+    "name": "Saari"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:43:00.000Z",
+   "liveEstimateTime": "2026-10-16T13:46:55.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 4,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SR",
+    "name": "Saari"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:48:33.000Z",
+   "liveEstimateTime": "2026-10-16T13:51:55.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "POI",
+    "name": "Poiksilta"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:48:33.000Z",
+   "liveEstimateTime": "2026-10-16T13:51:55.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 3,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "POI",
+    "name": "Poiksilta"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T13:54:00.000Z",
+   "liveEstimateTime": "2026-10-16T13:57:27.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 3,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "KTI",
+    "name": "Kes\u00e4lahti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T13:55:00.000Z",
+   "liveEstimateTime": "2026-10-16T13:58:27.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 3,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "KTI",
+    "name": "Kes\u00e4lahti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:13:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:14:01.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PUS",
+    "name": "Puhos"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:13:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:14:01.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 1,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PUS",
+    "name": "Puhos"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:17:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:19:16.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 2,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "KIT",
+    "name": "Kitee"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:18:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:20:16.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 2,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "KIT",
+    "name": "Kitee"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:29:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:29:00.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "S\u00c4",
+    "name": "S\u00e4k\u00e4niemi"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:29:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:29:00.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "S\u00c4",
+    "name": "S\u00e4k\u00e4niemi"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:32:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:32:00.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TKK",
+    "name": "Tikkala"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:32:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:32:00.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "TKK",
+    "name": "Tikkala"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:38:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:38:00.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HSL",
+    "name": "Hammaslahti"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:38:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:38:00.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "HSL",
+    "name": "Hammaslahti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:43:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:43:12.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "NTH",
+    "name": "Niittylahti"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:43:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:43:12.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "NTH",
+    "name": "Niittylahti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:48:30.000Z",
+   "liveEstimateTime": "2026-10-16T14:48:30.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KPP",
+    "name": "Joensuu Koppola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:48:30.000Z",
+   "liveEstimateTime": "2026-10-16T14:48:30.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "KPP",
+    "name": "Joensuu Koppola"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:49:47.000Z",
+   "liveEstimateTime": "2026-10-16T14:49:48.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SUL",
+    "name": "Joensuu Sulkulahti"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:49:47.000Z",
+   "liveEstimateTime": "2026-10-16T14:49:48.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "SUL",
+    "name": "Joensuu Sulkulahti"
+   }
+  },
+  {
+   "type": "DEPARTURE",
+   "scheduledTime": "2026-10-16T14:50:27.000Z",
+   "liveEstimateTime": "2026-10-16T14:50:27.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PLT",
+    "name": "Joensuu Peltola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:50:27.000Z",
+   "liveEstimateTime": "2026-10-16T14:50:27.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": null,
+   "station": {
+    "shortCode": "PLT",
+    "name": "Joensuu Peltola"
+   }
+  },
+  {
+   "type": "ARRIVAL",
+   "scheduledTime": "2026-10-16T14:51:00.000Z",
+   "liveEstimateTime": "2026-10-16T14:51:00.000Z",
+   "actualTime": null,
+   "differenceInMinutes": 0,
+   "commercialStop": true,
+   "station": {
+    "shortCode": "JNS",
+    "name": "Joensuu asema"
+   }
+  }
+ ]
+}

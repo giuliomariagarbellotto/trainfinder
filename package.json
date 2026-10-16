@@ -1,0 +1,26 @@
+{
+  "name": "trainfinder",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Mappa live dei treni in stile Flightradar24",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @trainfinder/server & npm run dev -w @trainfinder/web",
+    "dev:server": "npm run dev -w @trainfinder/server",
+    "dev:web": "npm run dev -w @trainfinder/web",
+    "build": "npm run build -w @trainfinder/shared && npm run build -w @trainfinder/server && npm run build -w @trainfinder/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "numeroTreno": 9531,
+  "compNumeroTreno": "FR 9531",
+  "categoria": "",
+  "categoriaDescrizione": "FR",
+  "origine": "MILANO CENTRALE",
+  "destinazione": "ROMA TERMINI",
+  "ritardo": 5,
+  "provvedimento": 0,
+  "arrivato": false,
+  "nonPartito": false,
+  "oraUltimoRilevamento": 1792152300000,
+  "stazioneUltimoRilevamento": "MILANO ROGOREDO",
+  "fermate": [
+    { "id": "S01700", "stazione": "MILANO CENTRALE", "arrivo_teorico": null, "partenza_teorica": 1792152000000, "arrivoReale": null, "partenzaReale": 1792152300000, "ritardo": 5, "tipoFermata": "P" },
+    { "id": "S05043", "stazione": "BOLOGNA CENTRALE", "arrivo_teorico": 1792155600000, "partenza_teorica": 1792155720000, "arrivoReale": null, "partenzaReale": null, "ritardo": 5, "tipoFermata": "F" },
+    { "id": "S08409", "stazione": "ROMA TERMINI", "arrivo_teorico": 1792163400000, "partenza_teorica": null, "arrivoReale": null, "partenzaReale": null, "ritardo": 5, "tipoFermata": "A" }
+  ]
+}
