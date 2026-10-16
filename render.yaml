@@ -1,0 +1,12 @@
+# Configurazione per Render (render.com): New > Blueprint > scegli questo repository.
+services:
+  - type: web
+    name: trainfinder
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    envVars:
+      - key: CLIENT_NAME
+        value: trainfinder-render

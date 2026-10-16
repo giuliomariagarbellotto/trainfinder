@@ -1,21 +1,11 @@
 services:
-  server:
-    build:
-      context: .
-      target: server
+  app:
+    build: .
     env_file: .env
     environment:
       DATA_DIR: /app/data
     volumes:
       - ./data:/app/data
-    restart: unless-stopped
-
-  web:
-    build:
-      context: .
-      target: web
-    depends_on:
-      - server
     ports:
-      - "${WEB_PORT:-80}:80"
+      - "${WEB_PORT:-80}:8080"
     restart: unless-stopped

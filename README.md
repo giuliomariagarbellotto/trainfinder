@@ -48,7 +48,6 @@ packages/shared   tipi comuni (TrainPosition, messaggi WebSocket) e funzioni geo
 apps/server       Fastify: un adapter per fonte, store in memoria, REST + WebSocket
 apps/web          React + MapLibre GL: mappa, ricerca, dettaglio treno, stato fonti
 data/             script per la rete ferroviaria OSM e documentazione dei dati di supporto
-deploy/           configurazione nginx
 ```
 
 - Ogni adapter (`apps/server/src/adapters/`) converte la propria fonte nel modello comune.
@@ -56,6 +55,7 @@ deploy/           configurazione nginx
   aggiornati da 15 minuti.
 - I client WebSocket inviano l'area visibile della mappa e ricevono solo i treni in quell'area,
   con aggiornamenti incrementali ogni 2 secondi.
+- In produzione il server pubblica anche il frontend compilato, quindi basta un solo servizio.
 - Il browser proietta in avanti la posizione con velocità e rotta (fino a 45 s) per un movimento
   fluido, come fa Flightradar24.
 
@@ -86,7 +86,19 @@ Per limitare le fonti durante lo sviluppo:
 ENABLED_SOURCES=fi-digitraffic,no-entur npm run dev:server
 ```
 
-## Deploy su VPS con Docker
+## Pubblicazione su Render (consigliata)
+
+Il file `render.yaml` configura tutto: un solo servizio Docker che pubblica mappa, API e WebSocket.
+
+1. Su [render.com](https://render.com) accedi con GitHub.
+2. **New** > **Blueprint**, scegli il repository `trainfinder` e il branch da pubblicare.
+3. Conferma con **Deploy Blueprint**. La prima build richiede alcuni minuti; al termine l'app è
+   su un indirizzo del tipo `https://trainfinder.onrender.com`.
+
+Ogni push sul branch scelto ripubblica l'app in automatico. Con il piano gratuito il servizio si
+sospende dopo un periodo senza visite e alla visita successiva impiega circa un minuto a ripartire.
+
+## Pubblicazione su un proprio server con Docker
 
 ```bash
 git clone https://github.com/giuliomariagarbellotto/trainfinder.git
@@ -96,8 +108,7 @@ docker compose up -d --build
 ```
 
 L'app risponde sulla porta indicata da `WEB_PORT` (predefinita 80). Per HTTPS conviene mettere
-davanti un reverse proxy come [Caddy](https://caddyserver.com/), che ottiene i certificati in
-automatico. Un esempio di `Caddyfile`, con `WEB_PORT=8088` nel `.env`:
+davanti un reverse proxy come [Caddy](https://caddyserver.com/), con `WEB_PORT=127.0.0.1:8088` nel `.env`:
 
 ```
 treni.example.com {

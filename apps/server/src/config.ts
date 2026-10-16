@@ -18,6 +18,8 @@ export const config = {
   /** Se valorizzato, abilita solo questi adapter (id separati da virgola). */
   enabledSources: list(env.ENABLED_SOURCES),
   dataDir: path.resolve(env.DATA_DIR ?? "data"),
+  /** Cartella del frontend compilato da servire insieme alle API. */
+  webDir: path.resolve(env.WEB_DIR ?? "apps/web/dist"),
   /** GeoJSON con le linee ferroviarie, usato per far seguire i binari alle posizioni stimate. */
   railNetworkFile: env.RAIL_NETWORK_FILE,
   nrod: {

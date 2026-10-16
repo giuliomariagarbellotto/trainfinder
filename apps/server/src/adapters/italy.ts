@@ -239,8 +239,12 @@ export class ItalyAdapter implements SourceAdapter {
       );
       list = perRegion.flat().filter((s) => s.codiceStazione && Number.isFinite(s.lat) && s.lat !== 0);
       if (list.length === 0) throw new Error("ViaggiaTreno non raggiungibile (anagrafica stazioni vuota)");
-      await fs.mkdir(path.dirname(file), { recursive: true });
-      await fs.writeFile(file, JSON.stringify(list));
+      try {
+        await fs.mkdir(path.dirname(file), { recursive: true });
+        await fs.writeFile(file, JSON.stringify(list));
+      } catch (e) {
+        ctx.log.warn(`impossibile salvare la cache stazioni: ${e}`);
+      }
     }
     for (const s of list) this.stations.set(s.codiceStazione, s);
   }
