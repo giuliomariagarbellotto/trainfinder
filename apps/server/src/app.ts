@@ -5,7 +5,7 @@ import type { SourceRegistry } from "./registry.js";
 import type { TrainStore } from "./store.js";
 
 export async function buildApp(store: TrainStore, registry: SourceRegistry, broadcaster: Broadcaster): Promise<FastifyInstance> {
-  const app = Fastify({ logger: { level: process.env.LOG_LEVEL ?? "info" } });
+  const app = Fastify({ logger: { level: process.env.LOG_LEVEL ?? "info" }, disableRequestLogging: true });
   await app.register(websocket);
 
   app.get("/api/health", async () => ({ ok: true, trains: store.size, clients: broadcaster.clientCount }));

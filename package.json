@@ -8,6 +8,7 @@
     "apps/*"
   ],
   "scripts": {
+    "postinstall": "npm run build -w @trainfinder/shared",
     "dev": "npm run dev -w @trainfinder/server & npm run dev -w @trainfinder/web",
     "dev:server": "npm run dev -w @trainfinder/server",
     "dev:web": "npm run dev -w @trainfinder/web",
